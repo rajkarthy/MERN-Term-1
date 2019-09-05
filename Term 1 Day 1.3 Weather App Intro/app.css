@@ -1,0 +1,16 @@
+/* Weather app  */
+.weatherApp
+{
+	margin:0 auto;
+	width:500px;
+}
+/* City Name */
+.weatherApp .cityName
+{
+	color:red;
+	font-size: 3em;
+}
+.weatherApp a
+{
+
+}

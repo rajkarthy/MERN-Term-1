@@ -1,0 +1,45 @@
+
+:root{
+    --color-1:rgb(0, 204, 255);
+    --color-2:rgb(173, 33, 33);
+}
+.singleRelativeBox
+{
+    position: relative;
+    background-color:brown;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+.singleBox
+{
+    position: relative;
+    background-color: blueviolet;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+.container.weatherContainer{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    position: absolute;
+    display:inline-block;
+    height: 100%;
+    width: 50%;
+}
+.box.box-1{
+    background-color:var(--color-1);
+}
+.box.box-2 {
+    background-color:var(--color-2);
+    margin-left: 50%;
+}
+
+.flex-container{
+    display: flex;
+}
+.flex-container .item{
+    font-size: 4em;
+}
