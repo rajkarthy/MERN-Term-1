@@ -10,10 +10,10 @@ $(function(){
     // responses =[1,2,3,4,5]
     // $('.data-island').data('responses',responses)
     // console.log($('.data-island').data('responses'));
-    // getJSON('ques-db.json')
+    getJSON('ques-db1.json')
     // getLocalData()
     // Exercise1();
-    Exercise2();
+    // Exercise2();
 })
 // get JSON
 function getJSON(url){
@@ -29,6 +29,16 @@ function getJSON(url){
         console.log(questions[keys[randIndex]]);
         
     })
+    .done(function () {
+        console.log("second success");
+    })
+    .fail(function () {
+        console.log("error");
+    })
+    .always(function () {
+        console.log("complete");
+    });
+
 }
 // function getLocalData(){
 //     if(typeof(Storage) !== 'undefined')
