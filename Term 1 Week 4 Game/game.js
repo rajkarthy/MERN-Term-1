@@ -127,3 +127,14 @@ function initGame(){
     const game = new Game(canvas, 600, 600,numPlayers); // create an instance of the game
 }
 initGame();
+// let score = 0;
+// function function1(){
+//    //AJAX
+//    // score = 100
+//    function2();
+// }
+// function function2(){
+//     let total_score =score * no_ans;
+// }
+// function1();
+// // function2();
